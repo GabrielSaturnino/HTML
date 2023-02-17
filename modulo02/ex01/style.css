@@ -4,12 +4,8 @@
   font-family: sans-serif;
 }
 
-p {
-  text-align: justify;
-}
-
 body {
-  background-image: linear-gradient(to right, #01568C, #06BF7C);
+  background-image: linear-gradient(to right, #13678A, #DAFDBA);
 }
 
 main {
@@ -22,10 +18,15 @@ main {
 }
 
 h1 {
-  color: #036F8C;
+  color: #298d7e;
   text-align: center;
+
 }
 
 h2 {
-  color: #048C80;
+  color: #87d190;
+}
+
+p {
+  text-align: justify;
 }
