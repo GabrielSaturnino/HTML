@@ -1,3 +1,5 @@
+@charset"UTF-8";
+
 * {
   font-family: sans-serif;
 }
@@ -6,17 +8,17 @@ body {
   background-image: linear-gradient(to right, #10454F, #A3AB78);
 }
 
-p {
-  text-align: justify;
-}
-
 main {
   width: 600px;
   background-color: white;
+  margin: auto;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 15px black;
-  margin: auto;
+}
+
+p {
+  text-align: justify;
 }
 
 h1 {
