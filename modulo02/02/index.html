@@ -6,41 +6,100 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
   <style>
-    a {
-      text-decoration: none;
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
     }
 
-    a:active {
-      text-decoration: underline;
-      font-weight: bold;
-      color: yellow;
-
+    body {
+      background-color: dimgray;
+      font-family: sans-serif;
+      text-align: justify;
     }
 
-    a:hover {
-      text-decoration: underline;
-      color: black;
-    }
-
-    div {
-      background-color: aquamarine;
+    header {
+      background-color: white;
       padding: 10px;
+      margin: 10px;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: blue;
+      margin-right: 30px;
+    }
+
+    header nav {
+      background-color: rgb(178, 176, 176);
+    }
+
+    header nav a:hover {
+      color: green;
+      text-decoration: underline;
+    }
+
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      height: 500px;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 1px;
+      margin-top: 10px;
+      height: 2rem;
+    }
+
+    article h2 {
+      text-align: center;
+    }
+
+    main article {
+      background-color: rgb(178, 176, 176);
+    }
+
+    footer p {
+      margin-top: 6px;
     }
   </style>
-
 </head>
 
 <body>
-  <div>
-    <h1>Personalizando links</h1>
-    <p><a href="https://github.com/gustavoguanabara/html-css" target="_blank">GitHub</a></p>
-    <p>
-      <a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22"
-        target="_blank">Curso em video</a>
-    </p>
-    <p><a href="https://www.devmedia.com.br/view/viewaula.php?idcomp=42562" target="_blank">Devmedia</a></p>
-  </div>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="topicos">
+      Esporte Politica e Tecnologia!
+    </section>
+
+    <article>
+      <h2>Noticia sobre o Brasil</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla deleniti corporis tempora suscipit perspiciatis!
+        Nesciunt enim repudiandae, modi numquam accusamus, doloremque placeat eos officia sint itaque iste aut, incidunt
+        reiciendis.</p>
+      <p>Artigo escrito por Jose da silva</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>Desnvolvido por Gabriel Saturnino Coelho Rodrigues!!!</p>
+  </footer>
 </body>
 
 </html>
