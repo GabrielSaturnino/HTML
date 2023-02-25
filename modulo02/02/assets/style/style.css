@@ -10,11 +10,11 @@
 }
 
 body {
-  background-color: #E8E5C2;
+  background-color: #c5ebd6;
 }
 
 h1 {
-  font-family: 'idroid';
+  font-family: 'Bebas Neue', cursive;
 }
 
 header {
@@ -32,9 +32,7 @@ header nav {
 header nav a {
   color: rgb(194, 192, 192);
   text-decoration: none;
-  margin-right: 15px;
-  height: 500px;
-  background-color: red;
+  margin: 0 15px 0 10px;
 }
 
 header nav a:hover {
@@ -47,4 +45,5 @@ main {
   width: 800px;
   background-color: white;
   margin: auto;
+  padding: 10px;
 }
