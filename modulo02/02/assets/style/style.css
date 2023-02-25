@@ -9,12 +9,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  --cor1: #c5ebd6;
+}
+
 body {
-  background-color: #c5ebd6;
+  background-color: var(--cor1);
 }
 
 h1 {
   font-family: 'Bebas Neue', cursive;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+h2 {
+  margin: 10px 0 10px 0;
 }
 
 header {
@@ -23,6 +36,7 @@ header {
   height: 150px;
   color: white;
   font-weight: normal;
+  padding-top: 15px;
 }
 
 header nav {
@@ -42,8 +56,26 @@ header nav a:hover {
 
 
 main {
-  width: 800px;
+  min-width: 320px;
+  max-width: 800px;
   background-color: white;
   margin: auto;
   padding: 10px;
+  border-radius: 10px;
+}
+
+main article img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+aside ul li {
+  margin-left: 10px;
+}
+
+abbr {
+  text-decoration: none;
 }
