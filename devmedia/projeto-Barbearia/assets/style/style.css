@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #F1F1F1;
+  --color-h1: #606062;
+  --color-h2: #7A797B;
+  --color-h3: #606062;
+  --color-p: #616163;
+  --color-btn: #25D366;
+}
+
+body {
+  background-color: var(--color-1);
+}
+
+.container {
+  max-width: 600px;
+  min-width: 320px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 25px auto;
+  margin-bottom: 100px;
+}
+
+.container header {
+  text-align: center;
+}
+
+.container header h1 {
+  font-size: 24px;
+  color: var(--color-h1);
+  border: 5px solid var(--color-h1);
+  padding: 10px;
+  margin: 20px 0 25px 0;
+}
+
+.container header h2 {
+  font-size: 20px;
+  color: var(--color-h2);
+  margin: 20px 0 25px 0;
+}
+
+.container h3 {
+  font-size: 18px;
+  color: var(--color-h3);
+  font-weight: normal;
+  text-align: center;
+  margin: 20px 0 25px 0;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 10px;
+}
+
+.container main p {
+  line-height: 32px;
+}
+
+.container main, footer p {
+  font-size: 18px;
+  color: var(--color-p);
+  line-height: 32px;
+}
+
+.container footer a {
+  color: white;
+  background-color: var(--color-btn);
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.container footer div.btn {
+  margin-top: 50px;
+  margin-left: 150px;
+}
