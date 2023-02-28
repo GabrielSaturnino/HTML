@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-h1: #000000;
+  --color-btn: #FFFFFF;
+  --color-background: #F5F5F5;
+  --color-background-button: #49B970;
+}
+
+body {
+  max-width: 1400px;
+  min-width: 320px;
+  margin: 15px auto;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 190px;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+main section {
+  text-align: center;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  padding: 30px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+}
+
+footer h3 {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 28px;
+
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 26px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 20px;
+  margin: 5px 0;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  width: 930px;
+  margin: 15px auto 30px auto;
+}
+
+section h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-btn);
+  background-color: var(--color-background-button);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 11.7px;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
