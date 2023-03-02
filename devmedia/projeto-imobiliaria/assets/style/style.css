@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #B0DDFC;
+  padding-bottom: 30px;
+}
+
+header img {
+  height: 150px;
+}
+
+header nav a {
+  margin-left: 15px;
+}
+
+.banner img, .sobre img, .corretores img {
+  margin-top: 30px;
+  max-width: 800px;
+  min-width: 320px;
+  margin-bottom: 30px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.sobre {
+  text-align: center;
+}
+
+.sub-titulo-azul {
+  color: rgb(2, 140, 140);
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.sobre p {
+  width: 850px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.sobre span {
+  font-weight: bold;
+  color: rgb(2, 140, 140);
+}
+
+.servicos {
+  background-color: #1D80C1;
+  text-align: center;
+  min-height: 450px;
+  padding-bottom: 20px;
+}
+
+.servicos h2, .contato h2 {
+  padding-top: 30px;
+  color: white;
+  line-height: 40px;
+  font-size: 28px
+}
+
+.servicos p, .contato p {
+  width: 700px;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 42px;
+  font-size: 22px;
+}
+
+.servicos span {
+  font-weight: bold;
+  color: #DEF574;
+}
+
+.servicos ul {
+  margin: 40px auto;
+  width: 135px;
+  color: white;
+  line-height: 42px;
+  font-size: 22px;
+  text-align: left;
+}
+
+.corretores {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.corretores p {
+  width: 800px;
+  text-align: justify;
+  margin: auto;font-size: 20px;
+}
+
+.contato {
+  background-color: #1D80C1;
+  text-align: center;
+}
+
+.contato p {
+  text-align: justify;
+  margin: auto;
+}
+
+.contato li a {
+  background-color: white;
+  color: #1D80C1;
+} 
+
+.contato li { 
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+iframe {
+  width: 700px;
+  height: 300px;
+}
