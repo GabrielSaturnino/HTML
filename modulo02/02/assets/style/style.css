@@ -19,7 +19,7 @@ body {
 
 h1 {
   font-family: 'Bebas Neue', cursive;
-  margin-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 p {
@@ -36,7 +36,7 @@ header {
   height: 150px;
   color: white;
   font-weight: normal;
-  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 header nav {
