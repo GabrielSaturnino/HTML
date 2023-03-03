@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Tahoma';
+}
+
+body {
+  max-width: 1400px;
+  min-width: 320px;
+}
+
+.titulo-pagina {
+  margin-left: 150px;
+}
+
+.fundo-01 {
+  background-image: url(../img/capa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 300px;
+}
+
+.fundo-01 {
+  font-weight: bold;
+}
+
+.sobre-nos {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sobre-nos p{
+  margin: auto;
+  width: 800px;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.sobre-nos img {
+  width: 270px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.com-borda {
+  border-left: 2px solid black;
+}
+
+.atuacao-titulo {
+  background-color: black;
+  color: black;
+  margin: auto;
+  text-align: center;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.atuacao-titulo h2 {
+  display: inline-block;
+  margin-top: 35px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  width: 150px;
+}
+
+.areas-de-atuacao {
+  margin: auto;
+  width: 800px;
+  text-align: left;
+  margin: 15px auto;
+  line-height: 20px;
+}
+
+.areas-de-atuacao p {
+  margin: 10px 0;
+}
+
+.areas-de-atuacao li {
+  margin-left: 40px;
+}
