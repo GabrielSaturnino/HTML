@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/736x/2b/b7/46/2bb746f78a9bd656c25be2fce28e4b1d.jpg");
+}
+
+.container {
+  min-width: 320px;
+  max-width: 800px;
+  min-height: 300px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+h1 {
+  padding: 20px 0;
+  
+}
+
+h2 {
+  padding: 10px 0;
+}
+
+p {
+  padding: 20px 0;
+}
+
+iframe {
+  width: 320px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.invisible {
+  color: transparent;
+}
