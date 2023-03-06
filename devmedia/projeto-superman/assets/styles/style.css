@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: normal normal 20px Verdana;
+}
+
+body {
+  background-color: #460fc1;
+}
+
+.capa {
+  height: 800px;
+  background-image: url(../img/capa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.branco {
+  background-color: white;
+}
+
+nav {
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 40px;
+  background-color: #460fc1;
+}
+
+nav a, nav p{
+  background-color: #460fc1;
+  color: white;
+}
+
+nav p {
+  display: inline;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  color: #460fc1;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+main h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 15px;
+}
+
+main img {
+  padding: 20px;
+}
+
+.carrosel { 
+  padding-left: 20px;
+  height: 300px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.carrosel img {
+  display: inline;
+  width: 400px;
+  height: 300px;
+  box-shadow: 5px 0px 4px 0px gray;
+  padding: 0 5px;
+  margin: 5px;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
+
+.fora {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pai div {
+  height: 100px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.cor-azul {
+  display: block;
+  background-color: blue;
+  box-shadow: 15px 15px 10px;
+}
+
+.cor-vermelho {
+  display: none;
+  background-color: red;
+  box-shadow: 15px 15px 10px;
+}
+
+.cor-amarelo {
+  background-color: yellow;
+  box-shadow: 15px 15px 10px;
+}
+
+.pai:hover .cor-vermelho {
+  display: block;
+}
