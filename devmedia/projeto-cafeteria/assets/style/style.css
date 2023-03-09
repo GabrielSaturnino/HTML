@@ -2,4 +2,249 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Topo da pagina --> inicio */
+
+header {
+  background-color: #604829;
+  height: 60px;
+  position: relative;
+  width: 100%;
+  position: fixed;
+}
+
+header nav a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+
+header nav {
+  position: absolute;
+  right: 40px;
+  top: 15px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 200px;
+  top: -7px;
+}
+
+.img-background {
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/parallax-imagem1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Topo da pagina --> fim */
+
+.desc {
+  width: 80%;
+  margin: auto;
+  height: 350px;
+  text-align: center;
+}
+
+.desc p {
+  max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+
+    font-family: "Lato", sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+
+    color: #666;
+}
+
+.desc h2 {
+    padding: 30px;
+
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+
+    color: #c4a47c;
+}
+
+/* 
+.desc dentro {
+  padding: 20px 0;
+  width: 500px;
+  font-size: 24px;
+    letter-spacing: 5px;
+    font-family: "Oswald", serif;
+    text-align: center;
+
+    color: white;
+    background-color: #604829;
+}
+*/
+
+.img-paralax {
+  width: 100%;
+  height: 300px;
+}
+
+.img-desc {
+  background-image: url(../img/parallax-imagem2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-o-que-e-cafe {
+  background-image: url(../img/parallax-imagem3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-contatos {
+  background-image: url(../img/parallax-imagem4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contatos {
+  width: 100%;
+  margin: auto;
+  height: 700px;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+
+  background-image: url(../img/parallax-imagem4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-parallax5 {
+  background-image: url(../img/cafeteria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+.container-parallax5 h2 {
+  max-width: 800px;
+
+  position: absolute;
+  top: 8%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  letter-spacing: 8px;
+  color: white;
+}
+
+.lista-horarios {
+  max-width: 768px;
+
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+
+  font-family: "Oswald", sans-serif;
+  list-style: none;
+}
+
+.lista-horarios li {
+  position: relative;
+}
+
+.lista-horarios h3 {
+  margin-bottom: 20px;
+
+  text-align: left;
+  color: #fff;
+}
+
+.lista-horarios li div {
+  width: 70%;
+  height: 1px;
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+
+  background-color: #ACACAC;
+}
+
+.lista-horarios li p,
+.texto-marrom {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+.lista-horarios li p {
+  color: #ACACAC;
+  text-align: center;
+}
+
+.texto-marrom {
+  padding-left: 15px;
+  color: #c4a47c;
+  text-align: left;
+}
+
+/* Rodapé */
+.container-rodape {
+  position: relative;
+  padding: 20px 0;
+
+  line-height: 34px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+
+  background-color: #000000;
+  color: #fff;
+}
+
+.container-rodape span {
+  color: #c4a47c;
+}
+
+.container-rodape a {
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+
+  background-image: url(../img/seta-para-cima.png);
+  background-position: center;
+  background-size: cover;
+  background-color: #c4a47c;
+
+  border-radius: 4px;
 }
